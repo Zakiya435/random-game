@@ -45,6 +45,8 @@ function draw()
     }
     textSize(20);
     text("if you go out of the screen, you lose!!     Score: "+score,200,200);
+    textSize(15);
+    text("press space bar to jump and if you stay on the floating ground for too long, you will be dragged away",50,300);
     if(man.y >= 700)
     {
         bottom.velocityX = 0;
